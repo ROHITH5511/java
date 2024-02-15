@@ -1,0 +1,35 @@
+package java_basics;
+
+public class Condition_statements {
+
+	public static void main(String[] args) {
+		
+		double x = 30;                        // assigned a double data type value //
+		int y = 36;                           // assigned a integer data type value // 
+		float a = 26.12f;                     // assigned a float data type value //
+		long b = 63L;                         // assigned a long data type value //
+		
+		
+		if(x>=a) {                                 // if condition used using comparison operator //
+			System.out.println("hi");         
+		}
+		
+		
+		if(y>=b){                                   // if_else condition used using comparison operator //
+			System.out.println("hello");
+		}
+			else {                                   // here the given condition is FALSE so, the return value is error//
+				System.out.println("error");
+			}
+		
+		
+			if(x!=y) {                                     // if_else condition used using comparison operator //             
+			System.out.println("your code is success");
+			}
+			else {                                        // here the given condition is TRUE so, the return value is your code is success //       
+			System.out.println("error code");
+			}
+	
+	}
+
+	}
