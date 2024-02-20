@@ -1,9 +1,9 @@
 package java_basics;
 
-import java.util.Scanner;                                       // IMPORTING SCANNER CLASS //
+import java.util.Scanner;                                              // IMPORTING SCANNER CLASS //
 public class Leap_year {
 
-	public static void main(String[] args) {          		    // ASSIGNING SCANNER CLASS INPUT SYSTEM OPENED //
+	public static void main(String[] args) {          	       // ASSIGNING SCANNER CLASS INPUT SYSTEM OPENED //
 		Scanner sc = new Scanner (System.in);
 		System.out.print("Enter Your Year :- ");                // ASSIGNING SHORT DATA TYPE //
 		short year = sc.nextShort();                            // NESTED IF AND IF ELSE STATEMENTS OPENED //
@@ -23,9 +23,9 @@ public class Leap_year {
 			else {
 				System.out.println(year+"is not a Leap year");
 			}
-		}                                                        // NESTED IF AND IF ELSE STATEMENTS CLOSED //
+		}                                                                // NESTED IF AND IF ELSE STATEMENTS CLOSED //
 		
-		sc.close();                                             // SCANNER CLASS CLOSED //
+		sc.close();                                                      // SCANNER CLASS CLOSED //
 		
 
 	}
