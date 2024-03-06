@@ -9,10 +9,12 @@ public class Whileloop_Print_numbers {
 		int first_number = rk.nextInt();
 		System.out.println("Enter your limit :- ");
 		int limit_number = rk.nextInt();
-		while(first_number<=limit_number) {
-			System.out.println(first_number);
+		
+		while(first_number<=limit_number) {              // while loop initiated //
+			System.out.println(first_number);            
 			first_number++;
-		}
+		}                                                // while loop closed //
+		
 
 	}
 
