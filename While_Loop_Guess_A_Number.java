@@ -18,8 +18,8 @@ public class While_Loop_Guess_A_Number {
 				System.out.println(guess_number+" Guess number is LOWER");
 			}
 			System.out.println("guess again");
-			guess_number = rk.nextInt();                         // INITIATED INTEGER DATA TYPE AND SCANNER CLASS FOR GUESSING A NUMBER AGAIN //
-		}
+			guess_number = rk.nextInt();                    
+		}                                                        // CLOSED INTEGER DATA TYPE AND SCANNER CLASS FOR GUESSING A NUMBER AGAIN //
 		
 		System.out.println(guess_number+" CONGRATULATIONS YOUR GUESS IS RIGHT");
 		rk.close();                                              // SCANNER CLASS CLOSED //
