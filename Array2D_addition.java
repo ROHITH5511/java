@@ -1,3 +1,5 @@
+/* addition of 2 arrays */
+
 package Arrays_2D;
 
 import java.util.Scanner;
@@ -66,6 +68,7 @@ public class Array2D_addition {
 			}
 			System.out.println();
 		}
+		rk.close();
 		
 	}
 
