@@ -1,4 +1,3 @@
-/* addition of two arrays */
 package Arrays_2D;
 
 import java.util.Scanner;
